@@ -67,4 +67,3 @@
    - **Key Features**:
      - Company contact details (address, phone number, email).
      - Contact form for inquiries or support requests.
-     - Map showing the company’s location (optional).
