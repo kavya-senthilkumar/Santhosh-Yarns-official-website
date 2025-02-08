@@ -53,4 +53,26 @@ The goal of this project is to create a website where:
 
 - **Database:**
   - **MongoDB**: A NoSQL database used to store user data, thread details, and orders.
+### Home page:
+<img src="./image/1.png">
 
+### About page:
+<img src="./image/2.png">
+
+### Login alert:
+<img src="./image/3.png">
+
+### Login:
+<img src="./image/4.png">
+
+### Place order:
+<img src="./image/5.png">
+
+### Admin 
+<img src="./image/6.png">
+
+### Thread details
+<img src="./image/7.png">
+
+### Add threads
+<img src="./image/8.png">
