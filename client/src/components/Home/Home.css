@@ -1,0 +1,28 @@
+.home {
+    text-align: center;
+    padding: 80px 20px; /* Adjust padding to account for header height */
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.home-container {
+  width: 100%;
+  min-height: calc(100vh - 150px);
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+}
