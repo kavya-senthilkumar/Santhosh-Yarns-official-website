@@ -1,28 +1,35 @@
-.home {
-    text-align: center;
-    padding: 80px 20px; /* Adjust padding to account for header height */
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-.home h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #4CAF50;
-}
-
 .home-container {
-  width: 100%;
-  min-height: calc(100vh - 150px);
-  margin-top: 150px;
+  height: 100vh; /* Full viewport height */
+  background-image: url('../../assets/home_wp.jpg'); /* Replace with the actual image path */
+  background-size: cover;
+  background-position: center;
+  position: relative; /* Needed for overlay */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
+/* Overlay for transparency effect */
+.home-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay with 40% transparency */
+  z-index: 1; /* Places the overlay below the text */
+}
+
+/* Text Styling */
 .home-container h1 {
-  font-size: 3rem;
-  color: #333;
-  text-align: center;
+  position: relative; /* Ensures the text is above the overlay */
+  font-size: 5rem; /* Adjust size as needed */
+  color: #ffffff; /* Bright white text */
+  font-weight: bold;
+  text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.9), 
+               0px 0px 10px rgba(255, 255, 255, 1); /* Strong glow effect */
+  z-index: 2; /* Ensure text appears above everything */
 }

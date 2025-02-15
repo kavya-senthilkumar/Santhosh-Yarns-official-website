@@ -24,7 +24,7 @@ function App() {
                     <Route path="/place-order" element={<PlaceOrder />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/login" element={<Login />} />
-                    <Route path="/admin-dashboard" element={<AdminDashboard />} />
+                    <Route path="/admindashboard" element={<AdminDashboard />} />
                 </Routes>
             </Router>
         </>
@@ -32,3 +32,4 @@ function App() {
 }
 
 export default App;
+
