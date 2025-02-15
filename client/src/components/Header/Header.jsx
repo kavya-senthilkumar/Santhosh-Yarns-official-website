@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import logo from '../Header/Picture1.jpg';
+import logo from '../../assets/Picture1.jpg';
 import './Header.css';
 
 function Header() {
@@ -15,7 +15,7 @@ function Header() {
         <NavLink to="/place-order" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>PLACE ORDER</NavLink>
         <NavLink to="/contact" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>CONTACT INFO</NavLink>
       </nav>
-      <button className="login-btn">LOGIN</button>
+      <NavLink to="/login" className="login-btn">LOGIN</NavLink>
     </header>
   );
 }
